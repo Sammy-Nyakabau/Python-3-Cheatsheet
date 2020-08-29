@@ -6,23 +6,23 @@ Code snippets which detail the fundamental syntax and concepts introduced in [Py
 
 ## Table of Contents
 
-1. Introduction
-2. Variables
-3. Strings
-4. Type Conversion
-5. Falsy Values
-6. Conditional Statements
-7. Loops
-8. Functions
-9. Lists
-10. Tuples
-11. Arrays
-12. Sets
-13. Dictionaries
-14. Generator Expressions
-15. Unpacking Order
-16. Exceptions
-17. Classes
+1. [Introduction](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#introduction)
+2. [Variables](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#variables)
+3. [Strings](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#strings)
+4. [Type Conversion](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#type-conversion)
+5. [Falsy Values](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#falsy-values)
+6. [Conditional Statements](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#conditional-statements)
+7. [Loops](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#loops)
+8. [Functions](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#functions)
+9. [Lists](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#lists)
+10. [Tuples](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#tuples)
+11. [Arrays](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#arrays)
+12. [Sets](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#sets)
+13. [Dictionaries](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#dictionaries)
+14. [Generator Expressions](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#generator-expressions)
+15. [Unpacking Operator](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#unpacking-operator)
+16. [Exceptions](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#exceptions)
+17. [Classes](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#classes)
 
 ---
 
