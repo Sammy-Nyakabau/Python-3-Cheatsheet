@@ -33,7 +33,7 @@ Code snippets which detail the fundamental syntax and concepts introduced in [Py
 >Python 3.0 was released in 2008. Although this version is supposed to be backward incompatibles, later on many of its important features have been backported to be compatible with version 2.7. This cheatsheet gives enough understanding on Python 3 version programming language.
 ---
 
-### Variables
+### Variables :pushpin:
 
 - Variables are nothing but reserved memory locations to store values. It means that when you create a variable, you reserve some space in the memory.
 - Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to the variables, you can store integers, decimals or characters in these variables.
@@ -45,8 +45,9 @@ c = 1 + 2j  # complex number (a + bi)
 d = “a”     # string
 e = True    # boolean (True / False)
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
-### Strings
+### Strings :pushpin:
 
 - Strings are amongst the most popular types in Python. We can create them simply by enclosing characters in quotes. Python treats single quotes the same as double quotes.
 
@@ -73,7 +74,7 @@ x.replace(“a”, “b”)
 “a” in x
 ```
 ---
-### Type Conversion
+### Type Conversion :pushpin:
 
 - Sometimes, you may need to perform conversions between the built-in types. To convert between types, you simply use the type-names as a function.
 
@@ -85,8 +86,9 @@ float(x)
 bool(x) 
 string(x)
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
-### Falsy Values
+### Falsy Values :pushpin:
 
 - A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context.
 
@@ -102,7 +104,7 @@ None
 False
 ```
 ---
-### Conditional Statements
+### Conditional Statements :pushpin:
 
 - Decision-making is the anticipation of conditions occurring during the execution of a program and specified actions taken according to the conditions.
 - Decision structures evaluate multiple expressions, which produce TRUE or FALSE as the outcome. You need to determine which action to take and which statements to execute if the outcome is TRUE or FALSE otherwise.
@@ -122,8 +124,9 @@ x = “a” if n > 1 else “b”
 # Chaining comparison operators
 if 18 <= age < 65:
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
-### Loops
+### Loops :pushpin:
 
 - In general, statements are executed sequentially − The first statement in a function is executed first, followed by the second, and so on. There may be a situation when you need to execute a block of code several number of times.
 - Programming languages provide various control structures that allow more complicated execution paths.
@@ -138,7 +141,7 @@ while n < 10:
     n += 1
 ```
 ---
-### Functions
+### Functions :pushpin:
 
 - A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
 - As you already know, Python gives you many built-in functions like print(), etc. but you can also create your own functions. These functions are called user-defined functions.
@@ -165,9 +168,10 @@ def save_user(**user):
  
 save_user(id=1, name="Sam")
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
 
-### Lists
+### Lists :pushpin:
 
 - The most basic data structure in Python is the sequence. Each element of a sequence is assigned a number - its position or index. The first index is zero, the second index is one, and so forth.
 - There are certain things you can do with all the sequence types. These operations include indexing, slicing, adding, multiplying, and checking for membership. In addition, Python has built-in functions for finding the length of a sequence and for finding its largest and smallest elements.
@@ -244,9 +248,10 @@ list1 = [1, 2, 3]
 list2 = [10, 20, 30]
 combined = list(zip(list1, list2))    # [(1, 10), (2, 20)...]
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
 
-### Tuples
+### Tuples :pushpin:
 - A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The main difference between the tuples and the lists is that the tuples cannot be changed unlike lists. Tuples use parentheses, whereas lists use square brackets.
 - Creating a tuple is as simple as putting different comma-separated values. Optionally, you can put these comma-separated values between parentheses also.
 
@@ -263,7 +268,7 @@ y = 11
 x, y = y, x 
 ```
 ---
-### Arrays
+### Arrays :pushpin:
 
 - Array is a container which can hold a fix number of items and these items should be of the same type. Most of the data structures make use of arrays to implement their algorithms.
 
@@ -279,9 +284,10 @@ from array import array
  
 numbers = array("i", [1, 2, 3])
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
 
-### Sets
+### Sets :pushpin:
 
 - Mathematically, a set is a collection of items not in any particular order. A Python set is similar to this mathematical definition with below additional conditions.
     - The elements in the set cannot be duplicates.
@@ -302,7 +308,7 @@ if 1 in first:
 ```
 ---
 
-### Dictionaries
+### Dictionaries :pushpin:
 
 - Each key is separated from its value by a colon `:`, the items are separated by commas, and the whole thing is enclosed in curly braces. An empty dictionary without any items is written with just two curly braces, like this: `{}`.
 - Keys are unique within a dictionary while values may not be. The values of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples.
@@ -321,9 +327,10 @@ for key, value in point.items():
 # Dictionary comprehensions 
 values = {x: x * 2 for x in range(5)}
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
 
-### Generator Expressions
+### Generator Expressions :pushpin:
 
 - Generators in python are a special routine that can be used to control the iteration behaviour of a loop. A generator is similar to a function returning an array. A generator has parameter, which we can call and it generates a sequence of numbers. But unlike functions, which return a whole array, a generator yields one value at a time which requires less memory.
 - There are various other expressions that can be simply coded similar to list comprehensions but instead of brackets we use parenthesis. These expressions are designed for situations where the generator is used right away by an enclosing function. Generator expression allows creating a generator without a yield keyword. However, it doesn’t share the whole power of generator created with a yield function
@@ -336,7 +343,7 @@ for x in values:
 ```
 ---
 
-### Unpacking Operator
+### Unpacking Operator :pushpin:
 
 - We use two operators `*` (for tuples) and `**` (for dictionaries)
 - We can use `*` or `**` to unpack the list so that all elements of it can be passed as sinlge elements in the combined list/dictionary.
@@ -350,9 +357,10 @@ first = {"x": 1}
 second = {"y": 2}
 combined = {**first, **second}
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
 
-### Exceptions
+### Exceptions :pushpin:
 
 - Python has many built-in exceptions that are raised when your program encounters an error (something in the program goes wrong).
 - When these exceptions occur, the Python interpreter stops the current process and passes it to the calling process until it is handled. If not handled, the program will crash.
@@ -378,7 +386,7 @@ with open(“file.txt”) as file
 
 ---
 
-### Classes
+### Classes :pushpin:
 
 - Python has been an object-oriented language since the time it existed. Due to this, creating and using classes and objects are downright easy.
 
@@ -458,4 +466,5 @@ from collections import namedtuple
 Point = namedtuple(“Point”, [“x”, “y”])
 point = Point(x=1, y=2)
 ```
+##### **[Back To Top :arrow_up:](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#table-of-contents)**
 ---
