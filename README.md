@@ -17,7 +17,7 @@ Code snippets which detail the fundamental syntax and concepts introduced in [Py
 9. [Lists](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#lists-pushpin)
 10. [Tuples](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#tuples-pushpin)
 11. [Arrays](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#arrays-pushpin)
-12. [Sets](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#sets)
+12. [Sets](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#sets-pushpin)
 13. [Dictionaries](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#dictionaries-pushpin)
 14. [Generator Expressions](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#generator-expressions-pushpin)
 15. [Unpacking Operator](https://github.com/Sammy-Nyakabau/Python-3-Cheatsheet#unpacking-operator-pushpin)
